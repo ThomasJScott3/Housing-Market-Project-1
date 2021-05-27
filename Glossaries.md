@@ -1,4 +1,4 @@
-Glossary for: Historical Origination Profile by Orig. Vintage
+## Glossary for: Historical Origination Profile by Orig. Vintage
 
 This table shows origination characteristics of all UPB in the Fannie Mae Single-Family Loan Performance Dataset.
 
@@ -37,7 +37,7 @@ Risk Layers are based upon loan conditions that typically relate to higher likel
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Glossary for: Historical Performance Data by Orig. Vintage
+## Glossary for: Historical Performance Data by Orig. Vintage
 
 This table shows loan counts, UPB, and loss amounts related to the performance of all UPB in the Fannie Mae Single-Family Loan Performance Dataset.
 
