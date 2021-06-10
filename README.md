@@ -6,7 +6,7 @@
 
 #### APIs Used: Quandl & Alpaca
 
-### Key Objectives
+## Key Objectives
 
 #### Evaluate the following questions:
 -What is the impact of low interest rates on the housing market?
