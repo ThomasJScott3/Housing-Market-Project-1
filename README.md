@@ -51,30 +51,42 @@ As you can see, the past decade has brought with it a trend toward higher loan t
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Plot.png"></p>
-As stated above, as interest rates have plummeted, loan to value ratios have begun to climb. We weighted the data in order to display the relationship between the two datapoints. In the heatmap correlation below, we unweight the data and demonstrate that there is in fact an inverse correlation.
+As stated above, as interest rates have plummeted, loan to value ratios have begun to climb. We weighted the data in order to display the relationship between the two datapoints. In the heatmap correlation below, we unweight the data and *attempt to demonstrate* that there is in fact an inverse correlation.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Plot.png"></p>
-This was more of a secondary concern of ours. Our hypothesis was that real estate speculators such as house flippers would have caused the rate of cash-out refinances to increase. In the heatmap section below, we show that there is a correlation. But as the visual above demonstrates, the practice did not cause a massive spike in of cash-out refinance volume relative to the 2000s.
+Cash-out refinances by investors were a secondary objective of ours. Our hypothesis was that real estate speculators such as house flippers would have caused the rate of cash-out refinances to increase. In the heatmap section below, we show that there is a correlation. But as the visual above demonstrates, the practice did not cause a massive spike in of cash-out refinance volume relative to the 2000s.
 
 
 #### Seaborn Heatmaps
-The second visual library we utilized is Seaborn, which allowed us to show the correlations between various elements of our dataset in the form of a heatmap. As you will see, all of our heatmaps by and large have the same range of 1 to -1. The 'hotter' one datapoint appears relative to another, the more they correlate.
+The second visual library we utilized is Seaborn, which allowed us to show the correlations between various elements of our dataset in the form of a heatmap. As you will see, all of our heatmaps by and large have the same range of 1 to -1. The 'hotter' one datapoint appears relative to another, the more they correlate. On the other hand, the closer a datapoint is to -1, the greater the inverse relationship relative to the other datapoint.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Heatmap.png"></p>
+As you can see, there is an inverse correlation between home prices and interest rates. The surprising part is that it is not as pronounced as we predicted. There is definitely still a significant mathematical relationship. This likely means that interest rates are not in and of themselves a silver bullet. Other factors are at play, such as availability of housing stock.
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Heatmap.png"></p>
+Here we see a much tigher positive correlation, albeit not a perfect one. This corroborates our findings above. To the average financial services professional, this may seem like common sense. However, we need to show that the data back up our assumptions. And in terms of our assumption regarding the impact of the Federal Reserve on interest rates, they do.
+
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Loan_Volume_vs_Interest_Rate_Heatmap.png"></p>
+This finding is a bit more suprising. As you can see, there is a slight inverse correlation. However it is not as sharp as the corresponding plot above would have had you believe. That being said, a statistically significant relationship exists nonetheless.
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Heatmap.png"></p>
+This finding is a bit more jarring. We already knew from the visual above that there is an inverse correlation between higher borrower FICO scores and lower interest rates. This heatmap reveals how acute that inverse correlation is. As we have now shown in 2 visuals, there is strong evidence that the current regulatory and lending environment benefits more well-heeled borrowers who have better credit. This is a far cry from the days of subprime lending nearly 2 decades ago. 
+
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Heatmap.png"></p>
+Here we see a soft inverse correlation between borrower FICO scores and loan to value ratios. As the scientific maxim goes: "correlation does not imply causation." But it should give lenders a quick pause for concern. There is a modest correlation and as we saw in the visual above, borrower loan to value ratios, which represent the amount being lent versus the appraised value of the home are now higher than they were at the height of the housing bubble in the 2000s.
+
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Heatmap.png"></p>
+And now for a moment of intellectual honesty. This finding actually challenges the main cusp of our argument. There is an inverse correlation of less and -.1 between interest rates and loan to value ratio. This might cause the reader to reject our findings, however I would urge them to consider our other findings with regard to increased loan to value ratios. What this tells us is that our assumptions may have been incorrect, but it further reinforces that there is a lopsided housing market in place. 
+
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png"></p>
+This was actually a bit of a surprise as well. We were not expecting an inverse relationship between the occurance rate of cash out refinances and origination of loans for investor properties. Based on my research, cash out refinances are a popular tool among real estate investors to tap into the equity of their properties and finance improvements. More research is resquired in the future. Bear in mind that Federal Housing Finance Agency [has instituted a 7% cap on second homes and investment properties](https://www.housingwire.com/articles/white-house-aware-of-issues-over-investment-properties/), which may be playing a role here.
+
 
 #### Secondary Axis Plots
 The third visual library we implemented was Plotly Express which allowed us to show inverse correlations in stark review with secondary axis plots. As you can see, these plots have two Y-axes.  
