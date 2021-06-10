@@ -24,7 +24,7 @@ Evaluate the following questions:
 After downloading our data in CSV format from our various sources in CSV (comma separated value) format from the year 2000 through 2020. We then used the Pandas library to aggregate our data into a consolidated dataframe. Afterward, we cleaned it by dropping any null values and displaying the new dataframe to check our work. This portion of our project can be found in the notebook called 'DataClean.ipynb' in the solution directory. In addition, we reset the index several times in our 'DataAnalysis.ipynb' notebook. We recognize that it is duplicative, but it was a lot easier for us to call the initial combined dataframe and work with a different instance each time than worrying about alterations made to said dataframe as our code flows throughout the notebook. Ultimately, it comes down to individual programmming style in our opinion.
 
 ### Analysis Part 2: Data Visualization
-Our data analysis notebook incorporates three primary visualization libraries in Python. They are: Matplotlib, Seaborn and Plotly Express. The resulting visuals are shown in sequential order below and arranged by visualization library. 
+Our data analysis notebook incorporates three primary visualization libraries in Python. They are: Matplotlib, Seaborn and Plotly Express. The resulting visuals are shown in sequential order below and arranged by visualization library. Bear in mind that we did not use every visual generated in the 'DataAnalysis.ipynb' file for presentation purposes.
 
 #### Matplotlib Area & Line Plots
 The first visualization libarary we used is Matplotlib, which allowed us to create area and line plots to display trends in our data. 
