@@ -1,10 +1,10 @@
 # Project-1: Real Estate Lending Market Analysis (Insert Presentation Title)
 
-### Contributors: Jackie Bai, Rosalyn Brown & Thomas Scott
+#### Contributors: Jackie Bai, Rosalyn Brown & Thomas Scott
 
 #### Primary Libraries Used: Pandas, Matplotlib, Seaborn & Bokeh
 
-### APIs Used: Quandl & Alpaca
+#### APIs Used: Quandl & Alpaca
 
 ### Key Objectives
 
