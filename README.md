@@ -22,7 +22,7 @@ INSERT LINKS TO PDFs & DATA AS WELL AS COMMENTARY
 ### Analysis Part 2: Data Visualization
 INSERT VISUALS & COMMENTARY
 
-!(https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Heatmap.png)
+![https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Heatmap.png]
 
 ### Analysis Part 3: APIs
 INSERT VISUALS & COMMENTARY
