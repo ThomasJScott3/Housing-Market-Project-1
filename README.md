@@ -32,8 +32,6 @@ INSERT VISUALS & COMMENTARY
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Plot.png)
 
-![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Prapayment_Percentage_Plot.png)
-
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Plot.png)
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Plot.png)
@@ -68,6 +66,9 @@ INSERT VISUALS & COMMENTARY
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_FICO_Plot.png)
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_LTV_Plot.png)
+
+![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Prapayment_Percentage_Plot.png)
+
 
 ### Analysis Part 3: APIs
 INSERT VISUALS & COMMENTARY (Quandl & Alpaca, describe steps to compose data)
