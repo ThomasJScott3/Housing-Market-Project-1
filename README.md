@@ -57,6 +57,8 @@ INSERT VISUALS & COMMENTARY
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Heatmap.png)
 
+![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png)
+
 #### Secondary Axis Plots
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Debt_to_Income_Ratio_vs_FICO_Plot.png)
@@ -74,9 +76,6 @@ INSERT VISUALS & COMMENTARY (Quandl & Alpaca, describe steps to compose data)
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Plot.png)
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Heatmap.png)
-
-![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png)
-
 
 ### Analysis Part 4: Montecarlo Simulations
 INSERT VISUALS & COMMENTARY (List ETFs and add link)
