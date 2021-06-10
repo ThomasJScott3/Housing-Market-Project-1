@@ -26,6 +26,13 @@ After downloading our data in CSV format from our various sources in CSV (comma 
 ### Analysis Part 2: Data Visualization
 Our data analysis notebook incorporates three primary visualization libraries in Python. They are: Matplotlib, Seaborn and Plotly Express. The resulting visuals are shown in sequential order below and arranged by visualization library. Bear in mind that we did not use every visual generated in the 'DataAnalysis.ipynb' file for presentation purposes.
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 #### Matplotlib Area & Line Plots
 The first visualization libarary we used is Matplotlib, which allowed us to create area and line plots to display trends in our data. 
 
