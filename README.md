@@ -32,11 +32,11 @@ INSERT VISUALS & COMMENTARY
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Plot.png)
 
+![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Plot.png)
+
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Plot.png)
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Plot.png)
-
-![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Plot.png)
 
 
 #### Seaborn Heatmaps
@@ -98,10 +98,10 @@ ANSWER HERE
 ANSWER HERE
 
 ### Recommendations:
-- Maintain current underwriting standards and seek out ways to tighten them.
-- Enhance monitoring of loans on investment properties and cash out refinances.
+- Maintain current underwriting standards and seek out ways to optimize them to suit the current market environment.
+- Continue to monitor cash out refinances and loans on investment properties.
 - Seek out ways to enhance returns on mortgage backed securities in a low interest rate environment
 - Evaluate ways to improve access to financing for middle-income borrowers without compromising the bank's overall portfolio.
-ELABORATE FURTHER
+- ELABORATE FURTHER
 
 
