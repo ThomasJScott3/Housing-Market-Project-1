@@ -29,64 +29,64 @@ Our data analysis notebook incorporates three primary visualization libraries in
 #### Matplotlib Area & Line Plots
 The first visualization libarary we used is Matplotlib, which allowed us to create area and line plots to display trends in our data. 
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Loan_Volume_vs_Interest_Rate_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Loan_Volume_vs_Interest_Rate_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Plot.png"></p>
 
 
 #### Seaborn Heatmaps
 The second visual library we utilized is Seaborn, which allowed us to show the correlations between various elements of our dataset in the form of a heatmap. As you will see, all of our heatmaps by and large have the same range of 1 to -1. 
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Heatmap.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Heatmap.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Heatmap.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Heatmap.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Loan_Volume_vs_Interest_Rate_Heatmap.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Loan_Volume_vs_Interest_Rate_Heatmap.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Heatmap.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Heatmap.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Heatmap.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Heatmap.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Heatmap.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Heatmap.png"></p>
 
-<p style="text-align:center;"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png"></p>
 
 #### Secondary Axis Plots
 The third visual library we implemented was Plotly Express which allowed us to show inverse correlations in stark review with secondary axis plots. As you can see, these plots have two Y-axes.  
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Debt_to_Income_Ratio_vs_FICO_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Debt_to_Income_Ratio_vs_FICO_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_FICO_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_FICO_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_LTV_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_LTV_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Prapayment_Percentage_Plot.png">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Prapayment_Percentage_Plot.png"></p>
 
 
 ### Analysis Part 3: APIs
  We implemented two APIs as part of our analysis. The first was the Quandl API to pull quartly data for the Case-Schiller Home Price Index and National Average Interest rates on a quarterly basis. We did this because increase our sample size within the time frame in question to verify the validity of our initial findings with regard to interest rates vis-a-vis single-family home prices. In the jupyter lab notebook labeled 'DataAnalysis.ipynb' we also use environmental variables for said APIs. Take note that in order to run these, you will need to make sure the variable name in your (dot)env file matches the one called in the program so that the key will be read by our program. 
  
  #### Quandl
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Plot.png" class="center">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Plot.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Heatmap.png" class="center">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Heatmap.png"></p>
 
 #### Alpaca API & Montecarlo Simulations
 Finally, we used the Alpaca API to pull daily stock price data for the four [largest mortgage backed security ETFs (exchange traded funds)](https://etfdb.com/etfdb-category/mortgage-backed-securities/) in order to run Montecarlo simulations. Montecarlo simulations allow us to simulate potential cummulative returns in the future based on past data. For our simulation, we composed a sample portfolio of the iShares MBS ETF (NASDAQ: MBB), the Vanguard Mortgage-Backed Securities ETF (NASDAQ: VMBS), the First Trust Low Duration Opportunities ETF (NASDAQ: LMBS), the SPDR Portfolio Mortgage Backed Bond ETF (NYSEARCA: SPMB). We then weighted each of these assets equally and simulated their cumulative returns over the next 5-10 years based on past performance during the 2010s.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_5_Year.png" class="center">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_5_Year.png"></p>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_10_Year.png" class="center">
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_10_Year.png"></p>
 
 ### Conclusions:
 - What is the impact of low interest rates on the housing market?
