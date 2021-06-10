@@ -75,11 +75,13 @@ The third visual library we implemented was Plotly Express which allowed us to s
 
 ### Analysis Part 3: APIs
  We implemented two APIs as part of our analysis. The first was the Quandl API to pull quartly data for the Case-Schiller Home Price Index and National Average Interest rates on a quarterly basis. We did this because increase our sample size within the time frame in question to verify the validity of our initial findings with regard to interest rates vis-a-vis single-family home prices. In the jupyter lab notebook labeled 'DataAnalysis.ipynb' we also use environmental variables for said APIs. Take note that in order to run these, you will need to make sure the variable name in your (dot)env file matches the one called in the program so that the key will be read by our program. 
+ 
+ #### Quandl
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Plot.png)
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Heatmap.png)
 
-### Analysis Part 4: APIs Continued - Montecarlo Simulations
+#### Alpaca API & Montecarlo Simulations
 Finally, we used the Alpaca API to pull daily stock price data for the four [largest mortgage backed security ETFs (exchange traded funds)](https://etfdb.com/etfdb-category/mortgage-backed-securities/) in order to run Montecarlo simulations. Montecarlo simulations allow us to simulate potential cummulative returns in the future based on past data. For our simulation, we composed a sample portfolio of the iShares MBS ETF (NASDAQ: MBB), the Vanguard Mortgage-Backed Securities ETF (NASDAQ: VMBS), the First Trust Low Duration Opportunities ETF (NASDAQ: LMBS), the SPDR Portfolio Mortgage Backed Bond ETF (NYSEARCA: SPMB). We then weighted each of these assets equally and simulated their cumulative returns over the next 5-10 years based on past performance during the 2010s.
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_5_Year.png)
