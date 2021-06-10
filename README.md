@@ -47,10 +47,6 @@ INSERT VISUALS & COMMENTARY
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Heatmap.png)
 
-
-![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png)
-
-
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Loan_Volume_vs_Interest_Rate_Heatmap.png)
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_Interest_Rate_Heatmap.png)
@@ -78,6 +74,9 @@ INSERT VISUALS & COMMENTARY (Quandl & Alpaca, describe steps to compose data)
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Plot.png)
 
 ![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Heatmap.png)
+
+![alt text](https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png)
+
 
 ### Analysis Part 4: Montecarlo Simulations
 INSERT VISUALS & COMMENTARY (List ETFs and add link)
