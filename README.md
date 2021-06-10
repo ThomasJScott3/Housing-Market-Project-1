@@ -24,7 +24,7 @@ INSERT VISUALS & COMMENTARY
 
 ![alt text][logo]
 
-[logo]: https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Heatmap.png]
+[logo]: https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Heatmap.png] "Interest rates are inversely correlated with housing prices"
 
 ### Analysis Part 3: APIs
 INSERT VISUALS & COMMENTARY
