@@ -121,7 +121,7 @@ Finally, we used the Alpaca API to pull daily stock price data for the four [lar
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_10_Year.png"></p>
 
 ### Conclusions:
-- What is the impact of low interest rates on the housing market?
+- What is the impact of low interest rates on the housing market? 
 ANSWER HERE
 
 - What is the impact of low interest rates on loan quality overall?
@@ -135,8 +135,9 @@ ANSWER HERE
 
 ### Recommendations:
 - Enhance current underwriting standards by decreasing loan to value limits.
-- Seek out ways to enhance returns on mortgage backed securities in a low interest rate environment.
-- Evaluate ways to improve access to financing for middle-income borrowers without compromising the bank's overall portfolio.
+- Adjust debt to income limits in anticipation of a housing market correction.
+- Limit relationship with real estate investors to mitigate adverse exposure speculation based losses
+- 
 - ELABORATE FURTHER
 
 
