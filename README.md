@@ -137,7 +137,7 @@ ANSWER HERE
 - Enhance current underwriting standards by decreasing loan to value limits.
 - Adjust debt to income limits in anticipation of a housing market correction.
 - Limit relationship with real estate investors to mitigate adverse exposure speculation based losses.
-- 
+- Limit origination of cash out refinances in anticipation of correction which could leave borrowers underwater.
 - ELABORATE FURTHER
 
 
