@@ -134,9 +134,8 @@ ANSWER HERE
 ANSWER HERE
 
 ### Recommendations:
-- Maintain current underwriting standards and seek out ways to optimize them to suit the current market environment.
-- Continue to monitor cash out refinances and loans on investment properties.
-- Seek out ways to enhance returns on mortgage backed securities in a low interest rate environment
+- Enhance current underwriting standards by decreasing loan to value limits.
+- Seek out ways to enhance returns on mortgage backed securities in a low interest rate environment.
 - Evaluate ways to improve access to financing for middle-income borrowers without compromising the bank's overall portfolio.
 - ELABORATE FURTHER
 
