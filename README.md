@@ -1,6 +1,6 @@
 # Project-1
 
-<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Presentation%20Title.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Presentation%20Title.png">{:target="_blank"}</p>
 
 ### [Link to Presentation](https://github.com/ThomasJScott3/Housing-Market-Project-1/blob/main/Documents/Presentation.pdf)
 
