@@ -1,8 +1,8 @@
 # Project-1
 
-<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Presentation%20Title.png">{:target="_blank"}</p>
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Presentation%20Title.png"></p>
 
-### [Link to Presentation](https://github.com/ThomasJScott3/Housing-Market-Project-1/blob/main/Documents/Presentation.pdf)
+### [Link to Presentation](https://github.com/ThomasJScott3/Housing-Market-Project-1/blob/main/Documents/Presentation.pdf){:target="_blank"}
 
 
 #### Python Libraries Used: Pandas, Matplotlib, Seaborn & Plotly Express
