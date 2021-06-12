@@ -118,8 +118,8 @@ By increasing our sample size, we were able to better show the inverse relations
 
 We applied the same methodology with APIs to create a seaborn heatmap. It shows an inverse for the nominal home price index, but it is not as tighly correlated in terms of the real home price index. More research is required to clarify why this is so. Otherwise, this heatmap is nearly identical to our earlier seaborn heatmap above for interest rates and the case-schiller index.
 
-#### Alpaca API & Montecarlo Simulations
-Finally, we used the Alpaca API to pull daily stock price data for the four [largest mortgage backed security ETFs (exchange traded funds)](https://etfdb.com/etfdb-category/mortgage-backed-securities/) in order to run Montecarlo simulations. Mortgage backed securities (MBSs) are bundles of mortgages traded on financial markets that gained notoriety during the 2008 metldown. Montecarlo simulations allow us to simulate potential cummulative returns in the future based on past performance data. For our simulation, we composed a sample portfolio of the iShares MBS ETF (NASDAQ: MBB), the Vanguard Mortgage-Backed Securities ETF (NASDAQ: VMBS), the First Trust Low Duration Opportunities ETF (NASDAQ: LMBS) and the SPDR Portfolio Mortgage Backed Bond ETF (NYSEARCA: SPMB). We then weighted each of these assets equally and simulated their cumulative returns over the next 5-10 years based on past performance during the 2010s.
+#### Alpaca API & Monte Carlo Simulations
+Finally, we used the Alpaca API to pull daily stock price data for the four [largest mortgage backed security ETFs (exchange traded funds)](https://etfdb.com/etfdb-category/mortgage-backed-securities/) in order to run monte carlo simulations. Mortgage backed securities (MBSs) are bundles of mortgages traded on financial markets that gained notoriety during the 2008 metldown. Monte carlo simulations allow us to simulate potential cummulative returns in the future based on past performance data. For our simulation, we composed a sample portfolio of the iShares MBS ETF (NASDAQ: MBB), the Vanguard Mortgage-Backed Securities ETF (NASDAQ: VMBS), the First Trust Low Duration Opportunities ETF (NASDAQ: LMBS) and the SPDR Portfolio Mortgage Backed Bond ETF (NYSEARCA: SPMB). We then weighted each of these assets equally and simulated their cumulative returns over the next 5-10 years based on past performance during the 2010s.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_5_Year.png"></p>
@@ -143,7 +143,7 @@ We showed that there has been an uptick in loan volume. We also showed inverse c
 
 - What is the impact of low interest rates on mortgage backed securities?
 
-As we showed with our Montecarlo simulations, there is downward pressure on the price and return of MBSs. Lenders are making up for the lower interest rates by originating more loans. That may help them generate interest income for their institution as well as shareholders, but it also means that a higher proportion of lower yield MBSs are entering financial markets. Bear in mind, however, that the current yield on the 10 year T note is 1.5 percent.
+As we showed with our monte carlo simulations, there is downward pressure on the price and return of MBSs. Lenders are making up for the lower interest rates by originating more loans. That may help them generate interest income for their institution as well as shareholders, but it also means that a higher proportion of lower yield MBSs are entering financial markets. Bear in mind, however, that the current yield on the 10 year T note is 1.5 percent.
 
 ### Recommendations:
 - Enhance current underwriting standards by decreasing loan to value limits.
