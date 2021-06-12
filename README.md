@@ -1,24 +1,22 @@
-# Project-1: The Story Behind the Real Estate Lending Cycle
-#### Contributors: Jackie Bai, Rosalyn Brown & Thomas Scott
+# Project-1
 
-[INSERT ROSALYN BACKGROUND VISUAL SENT BY EMAIL]
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Presentation%20Title.png"></p>
 
-#### Primary Libraries Used: Pandas, Matplotlib, Seaborn, Plotly Express & Bokeh
+#### Primary Libraries Used: Pandas, Matplotlib, Seaborn & Plotly Express
 
 #### APIs Used: Quandl & Alpaca
 
 ### Project Description 
-In this project, we sought to utilize datasets from Fannie Mae (loan origination & performance data), the St. Louis Fed (case-schiller index & national average 30-year interest rates), the economic data repository Quandl (quartly interest rate & case-schiller data) as well as the trading platform Alpaca (mortgage backed security perfomance data) to present a clear picture of the mortgage industry since the beginning of the new millenium. We wanted to see whether today's lending environment resembled that of the 2000s, given that low interest rates preceded an asset bubble that finally burst in 2008. After that crisis, as well as during the pandemic; the Federal Reserve lowered interest rates through a program known as quantitative easing to stave off deflation. We wanted to see whether or not these low interest rates would in turn lead to another housing bubble in spite of enhanced underwriting standards on the part of lenders as well as agencies such as Fannie Mae and Freddie Mac.
+In this project, we sought to utilize datasets from Fannie Mae, the St. Louis Fed, the economic data repository Quandl as well as the stock trading platform Alpaca (mortgage backed security perfomance data) to present a clear picture of the mortgage industry since the beginning of the new millenium. We wanted to see whether today's lending environment resembled that of the 2000s, given that low interest rates preceded an asset bubble that finally burst in 2008. After that crisis, as well as during the pandemic; the Federal Reserve lowered interest rates through a program known as quantitative easing to stave off deflation. In the report below, we attempt to evaluate whether or not these low interest rates could lead to another housing bubble in light of four questions. We then make recommendations based on our evaluation.  
  
-### Executive Summary of Findings
-What we found is that [we now have a K-shape housing boom (source: Axios)](https://www.axios.com/housing-bubble-federal-reserve-intervention-1ac8151e-d8f3-4984-af23-23414932a32b.html). As we will attempt to show, tightened underwriting standards in concert with low interest rates and have lead to soaring single-family home prices, ushering in a highly competitive housing market in which only well-heeled qualifying buyers can be competitive. In addition, we attempt to argue that *low interest rates correlate directly to soaring single-family housing prices*, which in turn *lead to degraded loan quality* as well as *stagnating returns for mortgage backed securities*. What follows is a macroeconomic analysis explaining our findings.
-
-### Key Objectives
-Evaluate the following questions:
+ ### Key Questions:
 - What is the impact of low interest rates on the housing market?
 - What is the impact of low interest rates on loan quality overall?
 - What correlations exist between low interest rates and other data points?
 - What is the impact of low interest rates on mortgage backed securities?
+
+### Executive Summary of Findings
+What we found is that [we now have a K-shape housing boom (source: Axios)](https://www.axios.com/housing-bubble-federal-reserve-intervention-1ac8151e-d8f3-4984-af23-23414932a32b.html). As we will attempt to show that low interest rates and have lead to soaring single-family home prices, ushering in a highly competitive housing market in which only well-heeled qualifying buyers can be competitive. In addition, we attempt to argue that *low interest rates correlate directly to soaring single-family housing prices*, which in turn *lead to degraded loan quality* as well as *stagnating returns for mortgage backed securities*. 
 
 ### Part 1: Preparing the Data
 After downloading our data in CSV format from our various sources in CSV (comma separated value) format from the year 2000 through 2020. We then used the Pandas library to aggregate our data into a consolidated dataframe. Afterward, we cleaned it by dropping any null values and displaying the new dataframe to check our work. This portion of our project can be found in the notebook called 'DataClean.ipynb' in the solution directory. In addition, we reset the index several times in our 'DataAnalysis.ipynb' notebook. We recognize that it is duplicative, but it was a lot easier for us to call the initial combined dataframe and work with a different instance each time than worrying about alterations made to said dataframe as our code flows throughout the notebook. Ultimately, it comes down to individual programmming style in our opinion.
@@ -55,7 +53,7 @@ As stated above, as interest rates have plummeted, loan to value ratios have beg
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Plot.png"></p>
-Cash-out refinances by investors were a secondary objective of ours. Our hypothesis was that real estate speculators such as house flippers would have caused the rate of cash-out refinances to increase. In the heatmap section below, we show that there is a correlation. But as the visual above demonstrates, the practice did not cause a massive spike in of cash-out refinance volume relative to the 2000s.
+Cash-out refinances by investors were a another objective of ours. Our hypothesis was that real estate speculators such as house flippers would have caused the rate of cash-out refinances to increase. In the heatmap section below, we show that there is a correlation. But as the visual above demonstrates, the practice did not cause a massive spike in of cash-out refinance volume relative to the 2000s.
 
 
 #### Seaborn Heatmaps
@@ -85,7 +83,7 @@ And now for a moment of intellectual honesty. This finding actually challenges t
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png"></p>
-This was actually a bit of a surprise as well. We were not expecting an inverse relationship between the occurance rate of cash out refinances and origination of loans for investor properties. Based on my research, cash out refinances are a popular tool among real estate investors to tap into the equity of their properties and finance improvements. More research is resquired in the future. Bear in mind that Federal Housing Finance Agency [has instituted a 7% cap on second homes and investment properties](https://www.housingwire.com/articles/white-house-aware-of-issues-over-investment-properties/), which may be playing a role here.
+This was actually a bit of a surprise as well. We were not expecting an inverse relationship between the occurance rate of cash out refinances and origination of loans for investor properties. Based on our research, cash out refinances are a popular tool among real estate investors to tap into the equity of their properties and finance improvements. More research is resquired in the future. Bear in mind that Federal Housing Finance Agency [has instituted a 7% cap on second homes and investment properties](https://www.housingwire.com/articles/white-house-aware-of-issues-over-investment-properties/), which may be playing a role here.
 
 
 #### Secondary Axis Plots
@@ -93,13 +91,14 @@ The third visual library we implemented was Plotly Express which allowed us to s
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Debt_to_Income_Ratio_vs_FICO_Plot.png"></p>
+As you can see from this chart, borrower FICO scores and loan to value ratios fluctuate on a fairly cyclical basis. They dip during the early 2010s following the 2008 meltdown and begin to climb throughout the last decade. It also shows that borrowers with better credit have been able to take advantage of historically low interest rates. In addition, it shows the inverse correlation between borrower FICO scores and loan to value ratios in sharper contrast than the seaborn heatmap above. 
+
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_FICO_Plot.png"></p>
-
-<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Number_of_Loans_Originated_vs_LTV_Plot.png"></p>
+Here we see a tight correlation between loan volume and borrower FICO scores. What this tells us is that the borrowers who have who have been able to take advantage of low interest rates are those who have better credit and therefore in better financial shape. This comports with our findings above.
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Prapayment_Percentage_Plot.png"></p>
-
+As you can see from this visual, there appears to be an inverse correlation between the case-schiller home price index and the rate at which loans are prepaid. This strikes at the heart of our hypothesis that an asset bubble is forming even though the borrower's in today's market are generally more financially well-off than those of the 2000s. 
 
 ### Part 3: APIs
 We implemented two APIs as part of our analysis. They were Quandl for macroeconomic data and Alpaca for stock price data. In the jupyter lab notebook labeled 'DataAnalysis.ipynb,' we also used environmental variables for said APIs. Take note that in order to run our code, you will need to make sure the variable name in your (dot)env file matches the local variable called in our program so that the API key will be read. 
@@ -107,37 +106,49 @@ We implemented two APIs as part of our analysis. They were Quandl for macroecono
  #### Plots with the Quandl API
 The first was the Quandl API to pull quartly data for the Case-Schiller Home Price Index and National Average Interest rates on a quarterly basis. We did this because increase our sample size within our 20-year time frame. This allowed us to verify the validity of our initial findings vis-a-vis single-family home prices and interest rates. 
  
- 
+
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Plot.png"></p>
+By increasing our sample size, we were able to better show the inverse relationship between interest rates and home prices. The point of this was to satisfy the technical requirements with regard to APIs (Application Programming Interfaces) while also giving us a larger sample size. In this case, we pulled quarterly data as opposed to simply annual data. Regardless, this visual backs up our earlier findings in this area.
+
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Heatmap.png"></p>
 
+We applied the same methodology with APIs to create a seaborn heatmap. It shows an inverse for the nominal home price index, but it is not as tighly correlated in terms of the real home price index. More research is required to clarify why this is so. Otherwise, this heatmap is nearly identical to our earlier seaborn heatmap above for interest rates and the case-schiller index.
+
 #### Alpaca API & Montecarlo Simulations
-Finally, we used the Alpaca API to pull daily stock price data for the four [largest mortgage backed security ETFs (exchange traded funds)](https://etfdb.com/etfdb-category/mortgage-backed-securities/) in order to run Montecarlo simulations. Montecarlo simulations allow us to simulate potential cummulative returns in the future based on past performance data. For our simulation, we composed a sample portfolio of the iShares MBS ETF (NASDAQ: MBB), the Vanguard Mortgage-Backed Securities ETF (NASDAQ: VMBS), the First Trust Low Duration Opportunities ETF (NASDAQ: LMBS) and the SPDR Portfolio Mortgage Backed Bond ETF (NYSEARCA: SPMB). We then weighted each of these assets equally and simulated their cumulative returns over the next 5-10 years based on past performance during the 2010s.
+Finally, we used the Alpaca API to pull daily stock price data for the four [largest mortgage backed security ETFs (exchange traded funds)](https://etfdb.com/etfdb-category/mortgage-backed-securities/) in order to run Montecarlo simulations. Mortgage backed securities (MBSs) are bundles of mortgages traded on financial markets that gained notoriety during the 2008 metldown. Montecarlo simulations allow us to simulate potential cummulative returns in the future based on past performance data. For our simulation, we composed a sample portfolio of the iShares MBS ETF (NASDAQ: MBB), the Vanguard Mortgage-Backed Securities ETF (NASDAQ: VMBS), the First Trust Low Duration Opportunities ETF (NASDAQ: LMBS) and the SPDR Portfolio Mortgage Backed Bond ETF (NYSEARCA: SPMB). We then weighted each of these assets equally and simulated their cumulative returns over the next 5-10 years based on past performance during the 2010s.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_5_Year.png"></p>
+This visual shows the simulated cumulative returns of a hypothetical portfolio containing an equal number of shares of the MBS ETFs listed above. As you can see, the cumulative returns over a 5 year period are well below 2 percent, which is the federal reserve's annual target rate for inflation. This is important because mortgage backed securities are a fixed-income financial product. This means that as interest rates fall, so do yields on MBSs.
+
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Mortgage_Backed_Securities_ETF_Montecarlo_10_Year.png"></p>
+As you can see, even over a 10 year period, the returns are still less than 2 percent. We think that part of the reason for this trend is that lower interest rates lead to lower yields, which combined to increased loan volume places downward pressure on the price of MBSs. Unless interest rates increase, then we expect this trend to continue for the foreseable future.
 
 ### Conclusions:
 - What is the impact of low interest rates on the housing market? 
-ANSWER HERE
+As we have shown, low interest rates have lead directly to soaring asset prices. These rates have allowed well-heeled borrowers to compete for scarce housing stock which has sent prices soaring over the past few years. In every sense of the word, we have a runaway housing market. The momentum behind it has been building for quite some time. 
 
 - What is the impact of low interest rates on loan quality overall?
-ANSWER HERE
+We have also demonstrated that although overall borrower creditworthiness has increased, there is a concerning trend in loan to value ratio as well as debt to income ratio. This trend ties in directly to access to credit, which allows potential homebuyers to bid up the price of housing. This purchasing power comes at the expense of their initial equity in the property as well as the requirement to obtain mortgage insurance when the loan to value ratio exceeds 78 percent.
 
 - What correlations exist between low interest rates and other data points?
-ANSWER HERE
+We showed that there has been an uptick in loan volume. We also showed inverse correlations, such as borrower FICO scores. There is also a similar trend in rates of prepayment and interest rates overall.
 
 - What is the impact of low interest rates on mortgage backed securities?
-ANSWER HERE
+As we showed with our Montecarlo simulations, there is downward pressure on the price and return of MBSs. Lenders are making up for the lower interest rates by originating more loans. That may help them generate interest income for their institution as well as shareholders, but it also means that a higher proportion of lower yield MBSs are entering financial markets. Bear in mind, however, that the current yield on the 10 year T note is 1.5 percent.
 
 ### Recommendations:
 - Enhance current underwriting standards by decreasing loan to value limits.
 - Adjust debt to income limits in anticipation of a housing market correction.
 - Limit relationship with real estate investors to mitigate adverse exposure to speculation based losses.
 - Limit origination of cash out refinances in anticipation of correction which could leave borrowers underwater.
-- ELABORATE FURTHER
 
+### Epilogue
+At the outset of our project, we gave the fictitious financial institution we were making recommendations to the name "George Bailey Financial, N.A." It was an homage to the 1946 Frank Capra film *It's a Wonderful Life* starring Jimmy Stewart. In the film, Bailey runs a building and loan outfit that aids the residents of Bedford Falls in obtaining affordable home loan financing. Bailey's nemesis, Mr. Potter who operates a rival financial institution believes that Bailey's approach is irresponsible and financially unsound. When Bailey is shown a vision of what Bedford Falls would look like had he never been born. He is shocked when he sees that the town has been transformed into Pottersville. The town has no affordable housing developments and instead the residents are relegated to becomming Mr. Potter's tenants. In real life, low interest rates have also enabled hedge funds, private equity and [pension funds in search of higher yields to borrow money and snap up single-family housing](https://www.wsj.com/articles/if-you-sell-a-house-these-days-the-buyer-might-be-a-pension-fund-11617544801). The intent behind these purchases is to either rent them out to tenants or flip them. *Welcome to Pottersville...*
+
+
+
+<p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/pottersville.png"></p>
 
