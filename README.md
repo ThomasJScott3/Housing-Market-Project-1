@@ -139,6 +139,7 @@ As we have shown, low interest rates have lead directly to soaring asset prices.
 We have also demonstrated that although overall borrower creditworthiness has increased, there is a concerning trend in loan to value ratio as well as debt to income ratio. This trend ties in directly to access to credit, which allows potential homebuyers to bid up the price of housing. This purchasing power comes at the expense of their initial equity in the property as well as the requirement to obtain mortgage insurance when the loan to value ratio exceeds 78 percent.
 
 - What correlations exist between low interest rates and other data points?
+
 We showed that there has been an uptick in loan volume. We also showed inverse correlations, such as borrower FICO scores. There is also a similar trend in rates of prepayment and interest rates overall.
 
 - What is the impact of low interest rates on mortgage backed securities?
