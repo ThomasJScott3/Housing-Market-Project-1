@@ -128,15 +128,18 @@ As you can see, even over a 10 year period, the returns are still less than 2 pe
 
 ### Conclusions:
 - What is the impact of low interest rates on the housing market? 
+
 As we have shown, low interest rates have lead directly to soaring asset prices. These rates have allowed well-heeled borrowers to compete for scarce housing stock which has sent prices soaring over the past few years. In every sense of the word, we have a runaway housing market. The momentum behind it has been building for quite some time. 
 
 - What is the impact of low interest rates on loan quality overall?
+
 We have also demonstrated that although overall borrower creditworthiness has increased, there is a concerning trend in loan to value ratio as well as debt to income ratio. This trend ties in directly to access to credit, which allows potential homebuyers to bid up the price of housing. This purchasing power comes at the expense of their initial equity in the property as well as the requirement to obtain mortgage insurance when the loan to value ratio exceeds 78 percent.
 
 - What correlations exist between low interest rates and other data points?
 We showed that there has been an uptick in loan volume. We also showed inverse correlations, such as borrower FICO scores. There is also a similar trend in rates of prepayment and interest rates overall.
 
 - What is the impact of low interest rates on mortgage backed securities?
+
 As we showed with our Montecarlo simulations, there is downward pressure on the price and return of MBSs. Lenders are making up for the lower interest rates by originating more loans. That may help them generate interest income for their institution as well as shareholders, but it also means that a higher proportion of lower yield MBSs are entering financial markets. Bear in mind, however, that the current yield on the 10 year T note is 1.5 percent.
 
 ### Recommendations:
