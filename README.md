@@ -140,7 +140,7 @@ We have also demonstrated that although overall borrower creditworthiness has in
 
 - What correlations exist between low interest rates and other data points?
 
-We showed that there has been an uptick in loan volume. We also showed inverse correlations, such as borrower FICO scores. There is also a similar trend in rates of prepayment and interest rates overall.
+We showed that there has been an uptick in loan volume. We also showed inverse correlations between interest rates and datapoints such as borrower FICO scores. There is also a similar trend in rates of prepayment and interest rates overall.
 
 - What is the impact of low interest rates on mortgage backed securities?
 
