@@ -83,7 +83,7 @@ And now for a moment of intellectual honesty. This finding actually challenges t
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png"></p>
-This was actually a bit of a surprise as well. We were not expecting an inverse relationship between the occurance rate of cash out refinances and origination of loans for investor properties. Based on our research, cash out refinances are a popular tool among real estate investors to tap into the equity of their properties and finance improvements. More research is resquired in the future. Bear in mind that Federal Housing Finance Agency [has instituted a 7 percent cap on second homes and investment properties](https://www.housingwire.com/articles/white-house-aware-of-issues-over-investment-properties/), which may be playing a role here. Nonetheless, we recommend caution in this area.
+This was actually a bit of a surprise as well. We were not expecting an inverse relationship between the occurance rate of cash out refinances and origination of loans for investor properties. Based on our research, cash out refinances are a popular tool among real estate investors to tap into the equity of their properties and finance improvements. More research is resquired in the future. Bear in mind that Federal Housing Finance Agency [has instituted a 7 percent cap on second homes and investment properties](https://www.housingwire.com/articles/white-house-aware-of-issues-over-investment-properties), which may be playing a role here. Nonetheless, we recommend caution in this area.
 
 
 #### Secondary Axis Plots
