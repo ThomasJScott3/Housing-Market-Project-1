@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Presentation%20Title.png"></p>
 
-### [Link to presenation](https://github.com/ThomasJScott3/Housing-Market-Project-1/blob/main/The%20Story%20Behind%20the%20Real%20Estate%20Cycle.pdf)
+### [Link to Presentation](https://github.com/ThomasJScott3/Housing-Market-Project-1/blob/main/Documents/Presentation.pdf)
 
 
 #### Python Libraries Used: Pandas, Matplotlib, Seaborn & Plotly Express
