@@ -144,7 +144,7 @@ We showed that there has been an uptick in loan volume. We also showed inverse c
 
 - What is the impact of low interest rates on mortgage backed securities?
 
-As we showed with our monte carlo simulations, there is downward pressure on the price and return of MBSs. Lenders are making up for the lower interest rates by originating more loans. That may help them generate interest income for their institution as well as shareholders, but it also means that a higher proportion of lower yield MBSs are entering financial markets. Bear in mind, however, that the current yield on the 10 year T note is 1.5 percent.
+As we showed with our monte carlo simulations, there is downward pressure on the price and return of MBSs. Lenders are making up for the lower interest rates by originating more loans. That may help them generate interest income for their institution as well as shareholders, but it also means that a higher proportion of lower yield MBSs are entering financial markets. Bear in mind, however, that the current yield on the 10 year T-note is 1.5 percent.
 
 ### Recommendations:
 - Enhance current underwriting standards by decreasing loan to value limits.
