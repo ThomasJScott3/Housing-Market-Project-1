@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Presentation%20Title.png"></p>
 
-### [Link to Presentation](https://github.com/ThomasJScott3/Housing-Market-Project-1/blob/main/Documents/Presentation.pdf){:target="_blank"}
+### [Link to Presentation](https://github.com/ThomasJScott3/Housing-Market-Project-1/blob/main/Documents/Presentation.pdf)
 
 
 #### Python Libraries Used: Pandas, Matplotlib, Seaborn & Plotly Express
