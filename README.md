@@ -17,9 +17,10 @@ In this project, we sought to utilize datasets from Fannie Mae, the St. Louis Fe
 - What is the impact of low interest rates on loan quality overall?
 - What correlations exist between low interest rates and other data points?
 - What is the impact of low interest rates on mortgage backed securities?
+- How should we change our current lending criteria given the similarity in trends leading up to the 2008 housing market correction?
 
 ### Executive Summary of Findings
-What we found is that [we now have a K-shape housing boom (source: Axios)](https://www.axios.com/housing-bubble-federal-reserve-intervention-1ac8151e-d8f3-4984-af23-23414932a32b.html). As we will attempt to show that low interest rates and have lead to soaring single-family home prices, ushering in a highly competitive housing market in which only well-heeled qualifying buyers can be competitive. In addition, we attempt to argue that *low interest rates correlate directly to soaring single-family housing prices*, which in turn *lead to degraded loan quality* as well as *stagnating returns for mortgage backed securities*. 
+What we found is that [we now have a K-shape housing boom (source: Axios)](https://www.axios.com/housing-bubble-federal-reserve-intervention-1ac8151e-d8f3-4984-af23-23414932a32b.html). As we will attempt to show that low interest rates and have lead to soaring single-family home prices, ushering in a highly competitive housing market in which only wealthier qualifying buyers can be competitive. In addition, we attempt to argue that *low interest rates correlate directly to soaring single-family housing prices*, which in turn *lead to degraded loan quality* as well as *stagnating returns for mortgage backed securities*. 
 
 ### Part 1: Preparing the Data
 After downloading our data in CSV format from our various sources in CSV (comma separated value) format from the year 2000 through 2020. We then used the Pandas library to aggregate our data into a consolidated dataframe. Afterward, we cleaned it by dropping any null values and displaying the new dataframe to check our work. This portion of our project can be found in the notebook called 'DataClean.ipynb' in the solution directory. In addition, we reset the index several times in our 'DataAnalysis.ipynb' notebook. We recognize that it is duplicative, but it was a lot easier for us to call the initial combined dataframe and work with a different instance each time than worrying about alterations made to said dataframe as our code flows throughout the notebook. Ultimately, it comes down to individual programmming style in our opinion.
@@ -32,7 +33,7 @@ The first visualization libarary we used is Matplotlib, which allowed us to crea
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Plot.png"></p>
-As you can see, there is a pronounced inverse correlation between interest rates and housing prices. This makes sense because increase access to credit allows homebuyers to bid up prices. The extent to which the two are correlated will be quantified in the corresponding heatmap correlation below.
+As you can see, there is a pronounced inverse correlation between interest rates and housing prices. This makes sense because increase access to credit allows homebuyers to bid up prices. The extent to which the two are correlated will be quantified in the corresponding heatmap correlation below.This actually prices out many buyers with lower budgets for homes.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Plot.png"></p>
@@ -44,11 +45,11 @@ This plot also makes sense in that expanded access to credit means that more peo
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Plot.png"></p>
-This visual is very telling. Since the 2008 meltdown, borrower FICO scores have actually *gone up*. Today's borrowers do not appear to be the subprime borrowers of the 2000s. We can thank an enhanced regulator environment and tightened underwriting standards for this trend. However, it begs the question of whether or not public policy and underwriting standards are making home loans out of reach for a wide swath of the population in favor of more well-heeled borrowers. In addition, it forces us to evaluate how overall loan quality has been impacted in light of this trend. In addition, how tightly these trends are correlated will be evaluated in a heatmap in the section below.
+This visual is very telling. Since the 2008 meltdown, borrower FICO scores have actually *gone up*. With changes to the calculation of FICO scores we can only slight rely on this data. Today's borrowers do not appear to be the subprime borrowers of the 2000s. We can thank an enhanced regulator environment and tightened underwriting standards for this trend. However, it begs the question of whether or not public policy and underwriting standards are making home loans out of reach for a wide swath of the population in favor of more well-heeled borrowers. In addition, it forces us to evaluate how overall loan quality has been impacted in light of this trend. In addition, how tightly these trends are correlated will be evaluated in a heatmap in the section below.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_LTV_vs_FICO_Plot.png"></p>
-As you can see, the past decade has brought with it a trend toward higher loan to value ratios. In today's environment, borrowers can expect their home's value to appreciate substantially over the life of their loan. But this visual begins to show is that although today's crop of borrowers have better credit, they are forced to finance an every larger share of their home loan. This is due in large part to trends in the housing market, such as *historically low interest rates*. This is just one of the myriad delimmas facing lenders in this low interest rate environment. There is an accompanying heatmap correlation in the section below.
+As you can see, the past decade has brought with it a trend toward higher loan to value ratios. In today's environment, borrowers can expect their home's value to appreciate substantially over the life of their loan. But this visual begins to show is that although today's crop of borrowers have better credit, they are forced to finance a larger share of their home loan. This is due in large part to trends in the housing market, such as *historically low interest rates*. This is just one of the myriad delimmas facing lenders in this low interest rate environment. There is an accompanying heatmap correlation in the section below. This also means that in the face of a housing market correction these homes will be under collaterized. 
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Plot.png"></p>
@@ -64,14 +65,14 @@ The second visual library we utilized is Seaborn, which allowed us to show the c
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Heatmap.png"></p>
-As you can see, there is an inverse correlation between home prices and interest rates. The surprising part is that it is not as pronounced as we predicted. There is definitely still a significant mathematical relationship. This likely means that interest rates are not in and of themselves a silver bullet. Other factors are at play, such as availability of housing stock.
+As you can see, there is an inverse correlation between home prices and interest rates. The surprising part is that it is not as pronounced as we predicted. There is still a significant mathematical relationship. This likely means that interest rates are not in and of themselves a silver bullet. Other factors are at play, such as availability of housing stock.
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Heatmap.png"></p>
 Here we see a much tigher positive correlation, albeit not a perfect one. This corroborates our findings above. To the average financial services professional, this may seem like common sense. However, we need to show that the data back up our assumptions. And in terms of our assumption regarding the impact of the Federal Reserve on interest rates, they do.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Loan_Volume_vs_Interest_Rate_Heatmap.png"></p>
-This finding is a bit more suprising. As you can see, there is a slight inverse correlation. However it is not as sharp as the corresponding plot above would have had you believe. That being said, a statistically significant relationship exists nonetheless.
+This finding is a bit more suprising. As shown there is a slight inverse correlation. However it is not as sharp as the corresponding plot above would have had you believe. That being said, a statistically significant relationship exists nonetheless.
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/FICO_Score_vs_Interest_Rate_Heatmap.png"></p>
 This finding is a bit more jarring. We already knew from the visual above that there is an inverse correlation between higher borrower FICO scores and lower interest rates. This heatmap reveals how acute that inverse correlation is. As we have now shown in 2 visuals, there is strong evidence that the current regulatory and lending environment benefits more well-heeled borrowers who have better credit. This is a far cry from the days of subprime lending nearly 2 decades ago. 
@@ -82,11 +83,11 @@ Here we see a soft inverse correlation between borrower FICO scores and loan to 
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Weighted_Interest_Rate_vs_LTV_Heatmap.png"></p>
-And now for a moment of intellectual honesty. This finding actually challenges the main cusp of our argument. There is an inverse correlation of less and -.1 between interest rates and loan to value ratio. This might cause the reader to reject our findings, however I would urge them to consider our other findings with regard to increased loan to value ratios. What this tells us is that our assumptions may have been incorrect, but it further reinforces that there is a lopsided housing market in place. 
+And now for a moment of intellectual honesty. This finding actually challenges the main cusp of our argument. There is an inverse correlation of less and -.1 between interest rates and loan to value ratio. This might cause the reader to reject our findings, however I would urge them to consider our other findings with regard to increased loan to value ratios. There are multiple factors that may have lead to this due to outside influences on the market. 
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Investor_vs_Cashout_Heatmap.png"></p>
-This was actually a bit of a surprise as well. We were not expecting an inverse relationship between the occurance rate of cash out refinances and origination of loans for investor properties. Based on our research, cash out refinances are a popular tool among real estate investors to tap into the equity of their properties and finance improvements. More research is resquired in the future. Bear in mind that Federal Housing Finance Agency has instituted <a href="https://www.housingwire.com/articles/white-house-aware-of-issues-over-investment-properties">a 7 percent cap on second homes and investment properties</a> which may be playing a role here. Nonetheless, we recommend caution in this area.
+This was actually a bit of a surprise as well. We were not expecting an inverse relationship between the occurance rate of cash out refinances and origination of loans for investor properties. Based on our research, cash out refinances are a popular tool among real estate investors to tap into the equity of their properties and finance improvements. More research is resquired in the future. Bear in mind that Federal Housing Finance Agency has instituted <a href="https://www.housingwire.com/articles/white-house-aware-of-issues-over-investment-properties">a 7 percent cap on second homes and investment properties</a> which may be playing a role here. Nonetheless, we recommend caution in this area. Investors may just use other tools to access the capital in thier homes than a cah out refinance.
 
 
 #### Secondary Axis Plots
@@ -111,12 +112,12 @@ The first was the Quandl API to pull quartly data for the Case-Schiller Home Pri
  
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Plot.png"></p>
-By increasing our sample size, we were able to better show the inverse relationship between interest rates and home prices. The point of this was to satisfy the technical requirements with regard to APIs (Application Programming Interfaces) while also giving us a larger sample size. In this case, we pulled quarterly data as opposed to simply annual data. Regardless, this visual backs up our earlier findings in this area.
+By increasing our sample size, we were able to better show the inverse relationship between interest rates and home prices. The point of this was to satisfy the technical requirements with regard to APIs (Application Programming Interfaces) while also giving us a larger sample size. In this case, we pulled quarterly data as opposed to simply annual data. This visual backs up our earlier findings in this area.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Quandl_Quarterly_Case-Schiller_vs_Interest_Rate_Heatmap.png"></p>
 
-We applied the same methodology with APIs to create a seaborn heatmap. It shows an inverse for the nominal home price index, but it is not as tighly correlated in terms of the real home price index. More research is required to clarify why this is so. Otherwise, this heatmap is nearly identical to our earlier seaborn heatmap above for interest rates and the case-schiller index.
+We applied the same methodology with APIs to create a seaborn heatmap. It shows an inverse for the nominal home price index, but it is not as tighly correlated in terms of the real home price index. More research is required to identify additional outside factors that lead to this correlation. Otherwise, this heatmap is nearly identical to our earlier seaborn heatmap above for interest rates and the case-schiller index.
 
 #### Alpaca API & Monte Carlo Simulations
 Finally, we used the Alpaca API to pull daily stock price data for the four [largest mortgage backed security ETFs (exchange traded funds)](https://etfdb.com/etfdb-category/mortgage-backed-securities/) in order to run monte carlo simulations. Mortgage backed securities (MBSs) are bundles of mortgages traded on financial markets that gained notoriety during the 2008 metldown. Monte carlo simulations allow us to simulate potential cummulative returns in the future based on past performance data. For our simulation, we composed a sample portfolio of the iShares MBS ETF (NASDAQ: MBB), the Vanguard Mortgage-Backed Securities ETF (NASDAQ: VMBS), the First Trust Low Duration Opportunities ETF (NASDAQ: LMBS) and the SPDR Portfolio Mortgage Backed Bond ETF (NYSEARCA: SPMB). We then weighted each of these assets equally and simulated their cumulative returns over the next 5-10 years based on past performance during the 2010s.
@@ -132,11 +133,11 @@ As you can see, even over a 10 year period, the returns are still less than 2 pe
 ### Conclusions:
 - What is the impact of low interest rates on the housing market? 
 
-As we have shown, low interest rates have lead directly to soaring asset prices. These rates have allowed well-heeled borrowers to compete for scarce housing stock which has sent prices soaring over the past few years. In every sense of the word, we have a runaway housing market. The momentum behind it has been building for quite some time. 
+As we have shown, low interest rates have lead directly to soaring asset prices. These rates have allowed borrowers of better financial means to compete for scarce housing stock with prices soaring over the past few years. In every sense of the word, we have a runaway housing market. The momentum behind is continuous over the past few years.
 
 - What is the impact of low interest rates on loan quality overall?
 
-We have also demonstrated that although overall borrower creditworthiness has increased, there is a concerning trend in loan to value ratio as well as debt to income ratio. This trend ties in directly to access to credit, which allows potential homebuyers to bid up the price of housing. This purchasing power comes at the expense of their initial equity in the property as well as the requirement to obtain mortgage insurance when the loan to value ratio exceeds 78 percent.
+We have also demonstrated that although overall borrower creditworthiness has increased, there is a concerning trend in loan to value ratio as well as debt to income ratio. This trend ties in directly to access to credit, which allows potential homebuyers to bid up the price of housing. This purchasing power comes at the expense of their initial equity in the property as well as the requirement to obtain mortgage insurance when the loan to value ratio exceeds 78 percent. This also drives buyers in the lower end of the market out as less opportunities exisit. 
 
 - What correlations exist between low interest rates and other data points?
 
