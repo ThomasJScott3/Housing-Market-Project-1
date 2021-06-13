@@ -33,7 +33,7 @@ The first visualization libarary we used is Matplotlib, which allowed us to crea
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Case-Schiller_vs_Interest_Rate_Plot.png"></p>
-As you can see, there is a pronounced inverse correlation between interest rates and housing prices. This makes sense because increase access to credit allows homebuyers to bid up prices. The extent to which the two are correlated will be quantified in the corresponding heatmap correlation below.This actually prices out many buyers with lower budgets for homes.
+As you can see, there is a pronounced inverse correlation between interest rates and housing prices. This makes sense because increase access to credit allows homebuyers to bid up prices. The extent to which the two are correlated will be quantified in the corresponding heatmap correlation below. This actually prices out many buyers with lower budgets for homes.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Federal_Funds_Rate_vs_Interest_Rate_Plot.png"></p>
