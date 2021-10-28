@@ -1,4 +1,4 @@
-# Project-1
+# Project 1: The Story Behind the Real Estate Cycle
 
 <p align="center"><img src="https://raw.githubusercontent.com/ThomasJScott3/Housing-Market-Project-1/main/Images/Presentation%20Title.png"></p>
 
